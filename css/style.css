@@ -1,0 +1,252 @@
+*{
+  font-family: 'Roboto', sans-serif;
+}
+header{
+  position:relative;
+}
+nav{
+  height: 50px;
+  background-color: #212121;
+}
+.menu{
+  display:flex;
+  justify-content: space-between;
+  padding: 13px 70px;
+  margin: 0;
+  list-style: none;
+
+}
+.menu .menu_link{
+  color: #fff;
+  font-size: 15px;
+  font-weight:300;
+  text-decoration: none;  
+}
+.menu .menu_item{
+  border-right: 2px dotted black;
+  padding-right: 28px;
+}
+.subheader{
+  position: absolute;
+  width: 100%;
+  height: 84px;
+  background-color: rgba(0,0,0, .6);
+}
+.subheader .subheader_logo{
+  display: block;
+  max-width: 100%;
+  margin-top: 16px;
+}
+.subheader .subheader_official{
+  opacity:  0.5;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 400;
+  margin-top: 7px;
+}
+.subheader .subheader_call{
+  color: #fff;
+  font-size: 12px;
+  font-weight: 300;
+  margin-top: 19px;
+  text-align: right;
+}
+.subheader .subheader_fon{
+  display: block;
+  margin-top: 8px;
+  color: #fff;
+  font-size: 22px;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-align: right;
+  line-height: 12px;
+  text-decoration: none;
+}
+.subheader .subheader_btn{
+  margin-top: 19px;  
+  width: 172px;
+  height: 46px;
+  box-shadow: inset 0 -3px 0 rgba(0,0,0, 0.12);
+  border: none;
+  border-radius: 8px;
+  background-image: linear-gradient(to top, #1eacc7 0%, #4ce2ff 100%);
+  text-shadow: 1px 1px 0 rgba(0,0,0, 0.21);
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.promo{
+  min-height: 800px;
+  background: url('/img/section_1.jpg')center center/cover no-repeat;
+  padding: 150px 0 135px 0;  
+}
+.promo .promo_header{
+  color: #fff;
+  font-size: 60px;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 60px;
+  text-align:center;
+}
+.promo .promo_subheader{
+  color: #fff;
+  font-size: 36px;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 36px;
+  margin: 0;
+  margin-top: 22px;
+  text-align: center;
+}
+.promo .promo_descr{
+  color: #fff;
+  font-size: 18px;
+  font-weight: 400;
+  text-transform: uppercase;
+  line-height: 24px;
+  text-align:center;
+  margin-top: 23px;
+}
+.promo .promo_btn{
+  display: block;
+  margin: 118px auto 0 auto;
+  width: 259px;
+  height: 63px;
+  box-shadow: inset 0 -4px 0 rgba(0,0,0 0.12);
+  border: none;
+  border-radius: 4px;
+  background-image: linear-gradient(to top, #1eacc7 0%, #4ce2ff 100%);
+  color: #fff;
+  font-size: 18px;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 60px;
+}
+.advantages_title{
+  display: block;
+  height: 24px;
+  width: 112px;
+  background-color:black;
+  margin: 70px auto 39px auto;
+  color: white;
+  font-size: 11px;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 24px;
+}
+.advantages h3{
+  font-size: 38px;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 35px;
+}
+.advantages .bgc_blue{
+  display: flex;
+  width: 120px;
+  height: 120px;
+  background-color: #1eacc7;
+  border-radius: 100%;
+  justify-content: center;
+  align-items: center;
+  margin-top: 38px;   
+}
+.advantages_text{  
+  width: 342px;
+  height: auto;
+  font-size: 13px;
+  text-align: justify;  
+  margin-left:40px;   
+}
+.advantages span{
+  color: #1eacc7;
+}
+.advantages .mr_b{
+  margin-bottom: 60px;
+}
+.advantages{
+ padding: 50px 0;
+ text-align: center;
+}
+.advantages .advantages_btn{
+  background-color:black;
+  color:white;
+  text-transform:uppercase;
+  font-size: 11px;
+  width: 113px;
+  height: 25px;
+  line-height: 22px;
+  margin-bottom: 39px;
+}
+.advantages .fon{ 
+  display: flex; 
+  background-color: #1eacc7;
+  width: 116px;
+  height: 116px;
+  border-radius: 100%;
+  align-items:center;
+  justify-content: center;  
+  margin: 0;
+} 
+.advantages .dubl_col{
+  display: flex;
+  min-height: 140px;
+  justify-content: center;
+  align-items:center;
+  margin:0 0 20px 0;
+  padding: 0;  
+}
+.mobil{
+  background-image: url('/img/section_3.jpg');
+  height: 872px;
+  padding-top: 43px;
+  padding-bottom: 85px;
+  text-align: center;
+}
+.mobil .mobil_btn{
+  background-color:black;
+  color:white;
+  text-transform:uppercase;
+  font-size: 11px;
+  width: 113px;
+  height: 25px;
+  line-height: 22px;  
+  margin:auto; 
+  margin-bottom: 39px; 
+}
+.mobil .mobil_h3{
+  font-size: 38px;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 22px;
+}
+.mobil .mobil_fon{  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 320px;
+  height:280px;
+    
+}
+.mobil .mobil_text{  
+  font-size: 24px;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-align: center;  
+  color: white; 
+  border: 1px solid red;
+}
+.mobil .mobil_plus{   
+  justify-content: center;
+  width: 26px;
+  height: 26px; 
+  background-color:black;
+  border-radius: 100%;  
+  border: 1px solid red;
+}
